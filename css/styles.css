@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+body {
+	color: #303030;
+	background-color: #eeeeee;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	margin: 0 auto ;
+	display: inline-block;
+	padding: 0 300px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	font-family: Roboto;
+	color:  #303030;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 27px;
+	text-align: left;
+	
+}
+nav {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: Roboto;
+	color: #303030;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	text-align: left;
+	letter-spacing: 0.05em;
+	
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	
+}
+header {
+	position: absolute;
+	margin-top: 48px;
+	margin-bottom: 105px;
+} 
+p {
+	font-weight: 400
+}
+.container__menu__bars {
+	margin-left: 400px;
+
+
+}
+.container__menu__bars li {
+	margin: 0 50px;
+}
+
+.black h2 {
+	margin: 0;
+	font-family: Raleway;
+	color: #303030;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 1;
+	text-align: right;
+	text-transform: uppercase;
+	/* padding-top: 210px; */
+}
+
+.black {
+	font-family: Roboto;
+	color: #303030;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	text-align: right;
+	width: 50%;
+	letter-spacing: 0.05em;
+	margin-top: 200px;
+}
+.image {
+	position: relative;
+	text-align: right;
+	margin-top: 0;
+	left: 500px;
+	bottom: 520px;
+ 	/*margin-top: -500px*/
+ }
+
+.btn1 {
+	color: #e10011;
+	font-weight: bold;
+}
+.content__dot {
+	font-size: 18px;
+	color: #303030;
+	margin-top: -400px;
+	margin-left: 530px;
+}
+ ul li {
+	display: inline-block;
+	padding-left: 5px;
+}
+.first:hover,
+.first:active,
+.first:focus
+{ color: #e10011;
+ }
+.second:hover,
+.second:active,
+.second:focus {
+	color: #e10011;
+} 
+.third:hover,
+.third:active,
+.third:focus {
+	color: #e10011;
+}
+.container__white {
+	width: 1200px;
+	height: 1200px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.beats h2 {
+	font-family: Raleway;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 100px;
+
+}
+.container__product-underline {
+	text-align: center;
+	
+}
+.container__product-text {
+	font-family: Roboto;
+	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 24px;
+	width: 60%;
+
+}
+.container__footer-text {
+	font-family: Raleway;
+	font-size: 18px;
+	text-align: center;
+	max-width: 560px;
+	margin: 0 auto;
+	
+		
+}
+.img { 
+	margin: 50px 70px 30px;
+
+}
+.img a:not(:first-of-type) {
+	margin-left: 30px;
+}
+.other__img {
+	margin: 30px 70px;	
+}
+.other__img a:not(:first-of-type) {
+	margin-left: 30px;
+} 
+.image__overlay {
+	
+}
+/*  */
+form { 
+ 	text-align: center;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	font-size: 0;
+
+  
+ } 
+input {
+	width: 490px;
+	height: 70px;
+	border: none;
+	background-color: #fff;
+	font-family: 'Raleway';
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 300;
+	color: #979797;
+	background-image: url('../img/mail.png');
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-radius: 35px 0 0 35px;
+	text-align: left;
+}
+
+.btn {
+	background-color: #e10011;
+	color: #fff;
+	width: 210px;
+	height: 70px;
+	font-size: 18px;
+	border: none;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	border-radius: 0 35px 35px 0;
+}
+
+.links__socials {
+	text-align: center;
+	padding-top: 40px;
+}
+.links__socials li {
+	display: inline-block;
+}
+.links__socials li:not(:first-of-type) {
+	margin-left: 20px;
+}
+.links__socials li a {
+	display: inline-block;
+}
+.icon {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+.icon-fb {
+	background-image: url('../img/fb.png');
+
+}
+.icon-tw {
+	background-image: url('../img/tw.png');
+
+}
+.icon-yt {
+	background-image: url('../img/yt.png');
+
+}
+.icon-me {
+	background-image: url('../img/me.png')
+}
+.copyright {
+	color: #979797;
+	letter-spacing: 0.1em;
+	font-family: 'Raleway';
+	text-align: center;
+	padding-top: 60px;
+
+	
+}
+.link {
+	color: #000;
+	font-weight: ;
+
+}
